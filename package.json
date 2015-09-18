@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/israelCanul/node-api-rest/issues"
   },
-  "homepage": "https://github.com/israelCanul/node-api-rest#readme"
+  "homepage": "https://github.com/israelCanul/node-api-rest#readme",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.7"
+  }
 }
