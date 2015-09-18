@@ -4,6 +4,8 @@ app = express(),
     methodOverride = require("method-override");
     mongoose = require('mongoose');
 
+var models= require('./models/tvshow');
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
@@ -14,8 +16,14 @@ router.get('/', function(req, res) {
    res.send("Hello World!");
 });
 
+
+
 app.use(router);
 
 app.listen(3000, function() {
   console.log("Node server running on http://localhost:3000");
+mongoose.connect('mongodb://localhost/tvshows', function(err, res) {
+    if(err) throw err;
+    console.log('Connected to Database');
+});
 });
