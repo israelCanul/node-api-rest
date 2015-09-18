@@ -1,0 +1,19 @@
+{
+  "name": "node-api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelCanul/node-api-rest.git"
+  },
+  "author": "Israel Canul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelCanul/node-api-rest/issues"
+  },
+  "homepage": "https://github.com/israelCanul/node-api-rest#readme"
+}
